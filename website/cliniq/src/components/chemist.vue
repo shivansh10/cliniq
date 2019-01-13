@@ -15,11 +15,7 @@
           <div class="col-md-4">
             <vue-qr-reader v-on:code-scanned="codeArrived"/>
 
-            <router-link tag="li" to="/patients">
-              <p>
-                <a class="btn btn-secondary" role="button">View details &raquo;</a>
-              </p>
-            </router-link>
+            
           </div>
           <div class="col-md-4">
             <h3>{{code}}</h3>
@@ -28,6 +24,13 @@
               <h1><b>Prescription</b></h1>
                 <h3>{{prescription}}</h3>
           </div>
+            <div class="col-md-12 text">
+                  
+                  <p>Scan the respective QR Code that the patient is giving to you ,</br>and supply the medicines prescribed by the Doctor.</p>
+                  <p>
+संबंधित QR कोड स्कैन करें, जो मरीज आपको दे रहा है,</br>
+और डॉक्टर द्वारा निर्धारित दवाओं की आपूर्ति।</p>
+                </div>
         </div>
         
 
@@ -114,5 +117,9 @@ li {
 
 a {
   color: #35495e;
+}
+.text p{
+  text-align: left;
+  font-size: 20px;
 }
 </style>

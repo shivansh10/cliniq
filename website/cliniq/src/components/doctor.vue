@@ -15,11 +15,7 @@
           <div class="col-md-4">
             <vue-qr-reader v-on:code-scanned="codeArrived"/>
 
-            <router-link tag="li" to="/patients">
-              <p>
-                <a class="btn btn-secondary" role="button">View details &raquo;</a>
-              </p>
-            </router-link>
+            
           </div>
           <div class="col-md-4">
             <h3>{{code}}</h3>
@@ -50,11 +46,16 @@
               v-on:click="send"
             >Send to Chemist &raquo;</a>
           </div>
+                <div class="col-md-12 text">
+                  <p>Scan the respective QR Code that the patient is giving to you ,</br>then fill the problems related to his/her health and </br>type the prescription over there.</p>
+                  <p> संबंधित क्यूआर कोड को स्कैन करें जो रोगी आपको दे रहा है, </br> फिर उसके स्वास्थ्य से संबंधित समस्याओं को भरें और </br> वहां पर पर्चे टाइप करें। </p>
+                </div>
         </div>
 
         <hr>
       </div>
       <!-- /container -->
+        
     </main>
 
     <footer class="container">
@@ -140,5 +141,9 @@ li {
 
 a {
   color: #35495e;
+}
+.text p{
+  text-align: left;
+  font-size: 18px;
 }
 </style>

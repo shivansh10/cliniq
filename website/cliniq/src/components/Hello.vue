@@ -7,34 +7,41 @@
         <div class="container" fluid>
           <h1 class="display-1">Cliniq</h1>
           <p>Skip the Queue / </p>
-          <router-link to="/qrscan">
+          
             <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-          </router-link>
         </div>
       </div>
   
       <div class="container">
         <!-- Example row of columns -->
+        
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-12 text1">
+              <p>Cliniq is bsed on next generation health care IT solution designed to help the patients to get rid of queue, to find the right doctor, book an appoinment using QR scanner and payment procedures via paytm. We are aiming transaction from paper to electronic health records.</br></br><strong> Get Informed, Get Inspired</strong> </br><blockquote>As your health is our concern!</blockquote></p></br></br>
+              <p>क्लिनक अगली पीढ़ी की स्वास्थ्य सेवा पर आधारित है, जिसका समाधान मरीजों को कतार से छुटकारा दिलाने में मदद करने के लिए बनाया गया है, सही चिकित्सक को खोजने के लिए, क्यूआर स्कैनर और पेटीएम के माध्यम से भुगतान प्रक्रियाओं का उपयोग कर एक अपॉइंटमेंट बुक करें। हम कागज से इलेक्ट्रॉनिक स्वास्थ्य रिकॉर्ड में संक्रमण का लक्ष्य बना रहे हैं। </br></br><strong>प्रेरित हो जाओ, अपने स्वास्थ्य हमारी चिंता के रूप में सूचित हो जाओ!</strong>
+<blockquote>अपने स्वास्थ्य के रूप में प्रेरित हमारी चिंता है!</blockquote></p>
+          </div>
+          <div class="col-md-4 part">
             <h2>Patients</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                        <blockquote>Get Started!</blockquote>
+
             <router-link tag="li" to="/patient">
-              <p><a class="btn btn-secondary" role="button">View details &raquo;</a></p>
+              <p><a class="btn btn-secondary" role="button">Click Here &raquo;</a></p>
             </router-link>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 part">
             <h2>Doctors</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                        <blockquote>Get Started!</blockquote>
+
             <router-link tag="li" to="/doctor">
-              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+              <p><a class="btn btn-secondary" href="#" role="button">Click Here &raquo;</a></p>
             </router-link>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 part">
             <h2>Chemist</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <blockquote>Get Started!</blockquote>
             <router-link tag="li" to="/chemist">
-              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+              <p><a class="btn btn-secondary" href="#" role="button">Click Here &raquo;</a></p>
             </router-link>
           </div>
         </div>
@@ -87,5 +94,12 @@
   
   a {
     color: #35495E;
+  }
+  .text1{
+    font-size: 23px;
+  }
+  .part{
+    padding: 15px;
+    margin-top: 65px;
   }
 </style>

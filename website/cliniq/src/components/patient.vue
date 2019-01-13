@@ -9,20 +9,20 @@
   <template slot="lead">
     Book an appointment at nearby clinic. 
   </template>
-  <hr class="my-4">
-  <p>
-Stand out of the queues.
-  </p>
-  <b-btn variant="primary" href="https://cliniq.azurewebsites.net/api/book?code=MJmTTI89wNBz3aDsyr/NCWrntc0VOSPqFZ2Vh6iAAhUH6L9TQyncvA==">Get A token</b-btn>
 </b-jumbotron>
 
-      <div class="container">
-        <!-- Example row of columns -->
-  
-        
+  <hr class="my-4">
+  <p>
+Stand out of the queues. Get a token with a click. Show it to the doctor
+  </p>
+  <p>
+कतारों में खड़े होने से बचें। एक क्लिक के साथ एक टोकन प्राप्त करें। इसे डॉक्टर को दिखाएं</p>
+  <b-btn variant="primary" href="https://cliniq.azurewebsites.net/api/book?code=MJmTTI89wNBz3aDsyr/NCWrntc0VOSPqFZ2Vh6iAAhUH6L9TQyncvA==">Get A token</b-btn>
 
-        <hr>
+      <div class="container">
+     
       </div>
+   <hr>
       <!-- /container -->
     </main>
 
@@ -82,4 +82,5 @@ li {
 a {
   color: #35495e;
 }
+
 </style>

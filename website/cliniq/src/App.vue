@@ -14,9 +14,7 @@
           <li class="nav-item active">
             <a class="nav-link" href="https://api.whatsapp.com/send?phone=14155238886&text=join%20cadet-dotterel&source=&data=">ChatBot</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
+         
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2 disabled" type="text" placeholder="Search" aria-label="Search" >
